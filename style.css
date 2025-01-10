@@ -1,0 +1,75 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.wrapper{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 7px;
+    margin: auto;
+}
+.fruit{
+   text-align: center;
+   padding-top: 35px;
+   font-size: 32px;
+   border-radius: 2px;
+   width: 200px;
+   height: 80px;
+   cursor: pointer;
+} 
+#watermelon{
+    background: linear-gradient(#fd8282, #6b8f6d);
+}
+#orange{
+    background: linear-gradient(#f78442, #f6f87c);
+}
+#lemon{
+    background: linear-gradient(#eee3c1, #e8ecc4);
+}
+#banana{
+    background: linear-gradient(#e6d37f, #9198e5);
+}
+#pineapple{
+    background: linear-gradient(#e9b451, #ecfcda);
+}
+#mango{
+    background: linear-gradient(#afe994, #e6be10);
+}
+#apple{
+    background: linear-gradient(#f54f4f, #9198e5);
+}
+#lime{
+    background: linear-gradient(#64e685, #9198e5);
+}
+#pear{
+    background: linear-gradient(#64e685, #a4b492);
+}
+#peach{
+    background: linear-gradient(#e69f64, #e5d891);
+}
+#cherry{
+    background: linear-gradient(#f54545, #a2e591);
+}
+#strawberry{
+    background: linear-gradient(#40c030, #ee9090);
+}
+#kiwi{
+    background: linear-gradient(#855120, #57e634);
+}
+#avocado{
+    background: linear-gradient(#4d331f, #b0e591);
+}
+
+@media (max-width:1200px){
+    .wrapper{
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+@media (max-width:1200px){
+    .wrapper{
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
